@@ -12,5 +12,5 @@ def convert_quality(path,dest,quality=70,grayscale=False):
     foo.save(dest,optimize=True,quality=quality)
 
 
-i = 'author.png'
+i = 'bg_1.png'
 convert_quality(i,i,70)
